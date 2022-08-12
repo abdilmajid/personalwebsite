@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Certs from './pages/Certs';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/projects' element={<Projects />} />
           <Route path='/certs' element={<Certs />} />
         </Routes>
+        <Footer />
       </Router>
   </div>
   );
