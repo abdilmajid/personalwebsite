@@ -2,7 +2,9 @@ import React from 'react'
 
 function Certs() {
   return (
-    <div>Certifications</div>
+    <div>Certifications
+
+    </div>
   )
 }
 
