@@ -8,22 +8,26 @@ function Certs() {
   return (
     <div>
       <h3> Certifications </h3>
-      <div>
-        <a href='https://www.google.com'>
-        <img src={comptia_img} alt="ComTIA_Badge" class="responsive"  />
+      <div className="container center">
+        <a href='https://www.credly.com/badges/0431fbc9-7a09-44ac-b82d-a6a86163ea6e'>
+        <img src={comptia_img} alt="ComTIA_Badge" className="responsive"  />
         </a>
       </div>
-      <div class="container">
-        <a href='https://www.google.com'>
-        <img src={rhcsa_img} alt="RedHat_Badge" class="responsive" />
-        <div class="overlay"> COMING SOON </div>
-        </a>
+      <div className="container center">
+        <img src={rhcsa_img} alt="RedHat_Badge" className="responsive" />
+        <div className="overlay overlay_blur"> 
+          <div className='overlay_title'> 
+            COMING SOON 
+          </div>
+        </div>
       </div>
-      <div class="container">
-        <a href='https://www.google.com'>
-        <img src={aws_cloud} alt="AWS_Badge" class="responsive" />
-        <div class="overlay"> COMING SOON </div>
-        </a>
+      <div className="container center">
+        <img src={aws_cloud} alt="AWS_Badge" className="responsive" />
+        <div className="overlay overlay_blur"> 
+          <div className='overlay_title'> 
+            COMING SOON 
+          </div>
+        </div>
       </div>
     </div>
   )
