@@ -1,8 +1,7 @@
 import React from 'react'
 import ProjectItem from '../components/ProjectItem'
-import FaceRecApp from '../assets/Proj1/Proj1_07face1.png'
-import ShoppingApp from '../assets/Proj2/01HomePage.png'
-import ShowApp from '../assets/Proj3/Showtracker.jpeg'
+import { ProjectList } from '../helpers/ProjectList'
+
 import "../styles/Projects.css";
 
 function Projects() {
@@ -10,9 +9,9 @@ function Projects() {
     <div className='projects'>
       <h1> My Project</h1> 
       <div className='projectList'>
-        <ProjectItem name="Face Recognition App" image={FaceRecApp}/>
-        <ProjectItem name="Shopping Site" image={ShoppingApp}/>
-        <ProjectItem name="Show Tracker Site" image={ShowApp}/>
+        {ProjectList.map((project) => {
+          return <ProjectItem name={project.name} image={project.image} githublink={project.githublink} demolink={project.demolink}/>
+        })}
       </div>
     </div>
     );

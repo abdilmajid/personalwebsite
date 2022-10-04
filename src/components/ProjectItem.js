@@ -8,7 +8,7 @@ function ProjectItem({image,name,githublink,demolink}) {
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
         <h1> {name} </h1>
         <a href={`url(${githublink})`}> GitHub </a>
-        <a href={`url(${demolink})`}> Demo </a>
+        <a href={`url(${demolink})`}> Live Demo </a>
     </div>
   );
 }

@@ -8,12 +8,13 @@ function Certs() {
   return (
     <div>
       <h3> Certifications </h3>
-      <div className="container center">
+    <div className="certList center">
+    <div className="container ">
         <a href='https://www.credly.com/badges/0431fbc9-7a09-44ac-b82d-a6a86163ea6e'>
         <img src={comptia_img} alt="ComTIA_Badge" className="responsive"  />
         </a>
       </div>
-      <div className="container center">
+      <div className="container ">
         <img src={rhcsa_img} alt="RedHat_Badge" className="responsive" />
         <div className="overlay overlay_blur"> 
           <div className='overlay_title'> 
@@ -21,7 +22,7 @@ function Certs() {
           </div>
         </div>
       </div>
-      <div className="container center">
+      <div className="container ">
         <img src={aws_cloud} alt="AWS_Badge" className="responsive" />
         <div className="overlay overlay_blur"> 
           <div className='overlay_title'> 
@@ -29,8 +30,9 @@ function Certs() {
           </div>
         </div>
       </div>
+      </div>
     </div>
-  )
+  );
 }
 
 export default Certs

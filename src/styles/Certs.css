@@ -1,17 +1,3 @@
-.badge {
-  display: inline-block;
-  padding: 0.25em 0.4em;
-  font-size: 75%;
-  font-weight: 700;
-  line-height: 1;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: baseline;
-  border-radius: 0.25rem;
-  background-color: #777;
-  color: #fff;
-}
-
 .responsive {
   display: block;
   width: 300px;
@@ -63,4 +49,34 @@
 
 .container:hover .overlay {
   opacity: 1;
+}
+
+.certList {
+  width: 70vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .certList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .certList {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .certList {
+    width: 100%;
+  }
+  .certItem {
+    width: 300px;
+    height: 300px;
+  }
 }
