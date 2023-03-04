@@ -15,8 +15,8 @@ function Home() {
         <div className="prompt">
           <p>A ... with a passion for learning and creating.</p>
           <LinkedInIcon />
-          <EmailIcon />
           <GithubIcon />
+          <EmailIcon />
         </div>
       </div>
       <div className="skills">
