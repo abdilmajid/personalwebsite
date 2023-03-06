@@ -1,6 +1,3 @@
-import React from 'react'
-import GitHubIcon from '@material-ui/icons/GitHub';
-
 
 function ProjectItem({image,name,githublink,demolink}) {
   return (

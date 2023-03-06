@@ -1,4 +1,3 @@
-import React from 'react'
 import "../styles/Certs.css";
 import comptia_img from "../assets/comptia-linux-ce-certification.png";
 import rhcsa_img from "../assets/rhcsa.png";

@@ -7,7 +7,7 @@
 
 .about {
   width: 100%;
-  height: calc(90vh - 140px);
+  height: calc(80vh - 20px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,24 +18,26 @@
 }
 
 .profile {
-  width: 100%;
+  max-width: 100%;
+  object-fit: contain;
   height: auto;
   display: block;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 10px; 
+  padding: 5px; 
   position: relative;
-  width: 400px;
+  width: 300px;
   border-radius: 50%;
 }
 
 .about h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 60px;
+  font-size: 80px;
   color: #e9d35b;
-  height: 60px;
+  height: 40px;
 }
+
 
 .about .prompt {
   width: 40%;
@@ -69,7 +71,23 @@
   font-size: 20px;
 }
 
-@media only screen and (max-width: 615px) {
+@media (max-height: 900px) {
+  .profile {
+    padding: 0px;
+  }
+
+  .about {
+    height: 80vh;	
+  }
+
+  .about h2 {
+  font-size: 60px;
+  color: #e9d35b;
+  height: 20px;
+}
+}
+
+@media only screen and (max-width: 825px) {
   .about h2 {
     font-size: 40px;
   }

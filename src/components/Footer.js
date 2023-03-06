@@ -3,7 +3,6 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
 import "../styles/Footer.css";
-import { Link } from "react-router-dom";
 
 function Footer() {
   return (
