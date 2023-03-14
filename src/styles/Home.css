@@ -71,6 +71,10 @@
   font-size: 20px;
 }
 
+.icons {
+  padding: 5px;
+}
+
 @media (max-height: 900px) {
   .profile {
     padding: 0px;
@@ -87,7 +91,7 @@
 }
 }
 
-@media only screen and (max-width: 825px) {
+@media only screen and (max-width: 839px) {
   .about h2 {
     font-size: 40px;
   }

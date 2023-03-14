@@ -1,6 +1,7 @@
 .responsive {
   display: block;
   width: 300px;
+  z-index: -1;
 }
 
 .center {
@@ -20,6 +21,7 @@
   padding: 10px; 
   position: relative;
   width: 300px;
+  z-index: 1;
 }
 
 .overlay {
@@ -44,11 +46,15 @@
 }
 
 .overlay_blur {
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(1px);
 }
 
 .container:hover .overlay {
   opacity: 1;
+}
+
+.coming_soon {
+  padding-top: 5px;
 }
 
 .certList {

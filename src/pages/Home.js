@@ -1,8 +1,9 @@
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
-import GithubIcon from "@material-ui/icons/GitHub";
+import { AiOutlineLinkedin } from "react-icons/ai";
+import { MdOutlineEmail } from "react-icons/md";
+import { SiGithub } from "react-icons/si";
 import Profile from "../assets/ProfilePic.png";
 import "../styles/Home.css";
+
 
 
 function Home() {
@@ -13,9 +14,9 @@ function Home() {
         <h2> Hi, My Name is Abdil</h2>
         <div className="prompt">
           <p>A ... with a passion for learning and creating.</p>
-          <LinkedInIcon />
-          <GithubIcon />
-          <EmailIcon />
+          <a href="google.com"><AiOutlineLinkedin className="icons"/></a>
+          <a href="google.com"><SiGithub className="icons"/></a>
+          <a href="google.com"><MdOutlineEmail className="icons"/></a>
         </div>
       </div>
       <div className="skills">
