@@ -1,21 +1,20 @@
-// import { SiGithub } from "react-icons/si";
-import GitHubIcon from '@material-ui/icons/GitHub';
-import Demo from'../assets/Demo.png'
-
-// import { RiExternalLinkLine } from "react-icons/ri";
+import { RiExternalLinkLine } from "react-icons/ri";
+import { SiGithub } from "react-icons/si";
 
 function ProjectItem({image,name,githublink,demolink}) {
   return (
     <div className='projectItem '>
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
-
         <h1> {name} </h1>
-        <a href={`url(${githublink})`} className="social">
-          <GitHubIcon />
+        <div className="social">
+
+        <a href={githublink} >
+          <SiGithub/>
         </a>
-        <a href={`url(${demolink})`}>
-          <img src={Demo} alt="demo" className="pulse social"/>
+        <a href={demolink}>
+          <RiExternalLinkLine className="pulse"/>
         </a>
+        </div>
     </div>
   );
 }

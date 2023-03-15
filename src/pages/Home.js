@@ -14,9 +14,11 @@ function Home() {
         <h2> Hi, My Name is Abdil</h2>
         <div className="prompt">
           <p>A ... with a passion for learning and creating.</p>
-          <a href="google.com"><AiOutlineLinkedin className="social_media"/></a>
-          <a href="google.com"><SiGithub className="social_media"/></a>
-          <a href="google.com"><MdOutlineEmail className="social_media"/></a>
+          <div className="socialMedia">
+            <a href="https://www.linkedin.com/in/abdilmajid-ibrahim"><AiOutlineLinkedin /></a>
+            <a href="https://github.com/abdilmajid"><SiGithub /></a>
+            <a href="mailto:abdilwebdev@gmail.com"><MdOutlineEmail /></a>
+          </div>   
         </div>
       </div>
       <div className="skills">

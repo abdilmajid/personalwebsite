@@ -42,5 +42,8 @@
   "main": "index.js",
   "repository": "git@github.com:abdilmajid/personalwebsite.git",
   "author": "Abdilmajid Ibrahim",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@svgr/core": "^6.5.1"
+  }
 }

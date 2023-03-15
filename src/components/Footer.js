@@ -1,16 +1,16 @@
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import GitHubIcon from '@material-ui/icons/GitHub';
-import EmailIcon from '@material-ui/icons/Email';
+import { AiOutlineLinkedin } from "react-icons/ai";
+import { MdOutlineEmail } from "react-icons/md";
+import { SiGithub } from "react-icons/si";
 import "../styles/Footer.css";
 
 function Footer() {
   return (
     <div className='footer'>
       <div className="socialMedia">
-        <a href="https://www.linkedin.com/in/abdilmajid-ibrahim"><LinkedInIcon /></a>
-        <a href="https://github.com/abdilmajid"><GitHubIcon /></a>
-        <a href="mailto:abdilwebdev@gmail.com"><EmailIcon /></a>
+        <a href="https://www.linkedin.com/in/abdilmajid-ibrahim"><AiOutlineLinkedin /></a>
+        <a href="https://github.com/abdilmajid"><SiGithub /></a>
+        <a href="mailto:abdilwebdev@gmail.com"><MdOutlineEmail /></a>
       </div>     
       <p> &copy; 2022 AbdilmajidIbrahim.com </p>
     </div>

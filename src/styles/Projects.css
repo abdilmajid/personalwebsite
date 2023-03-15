@@ -39,7 +39,6 @@
 }
 
 
-
 .projectItem .bgImage {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -52,23 +51,22 @@
 }
 
 
-
 .projectItem h1 {
   font-size: 25px;
 }
 
 .social svg{
-  color: #3e497a;
+  color: #000000;
   margin-left: 10px;
-  font-size: 20px;
+  font-size: 30px;
   cursor: pointer;
 }
 
 .pulse {
   animation: pulse-animation 1.5s infinite;
-  border-radius: 10%;
-  background-position: center;
-  /* position: relative; */
+  border-radius: 50%;
+  /* background-position: center; */
+
 }
 
 @keyframes pulse-animation {
@@ -76,7 +74,7 @@
     box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.52);
   }
   100% {
-    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
   }
 }
 
