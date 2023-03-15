@@ -71,8 +71,9 @@
   font-size: 20px;
 }
 
-.icons {
+.social {
   padding: 5px;
+  font-size: 20px;
 }
 
 @media (max-height: 900px) {
