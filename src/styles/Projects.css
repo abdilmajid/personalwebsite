@@ -62,21 +62,27 @@
   cursor: pointer;
 }
 
-.pulse {
-  animation: pulse-animation 1.5s infinite;
-  border-radius: 50%;
-  /* background-position: center; */
-
+.live {
+  margin-left: 15px;
 }
+
+ /* .pulse {
+  animation: pulse-animation 1.5s infinite;
+  border-radius: 20%;
+  margin-left: 15px;
+} 
 
 @keyframes pulse-animation {
   0% {
-    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.52);
+    box-shadow: 0 0 0 0px rgb(255, 171, 171);
+  }
+  50% {
+    box-shadow: 0 0 0 3px rgb(255, 0, 0);
   }
   100% {
-    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0px rgb(255, 206, 206);
   }
-}
+}  */
 
 
 @media only screen and (max-width: 1300px) {
