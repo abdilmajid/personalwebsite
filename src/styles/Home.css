@@ -5,6 +5,12 @@
   color: #3e497a;
 }
 
+.icons {
+  max-width: 90px;
+  max-height: 70px;
+  padding: 10px;
+}
+
 .about {
   width: 100%;
   height: calc(80vh - 20px);
