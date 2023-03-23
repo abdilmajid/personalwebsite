@@ -2,7 +2,6 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 import { MdOutlineEmail } from "react-icons/md";
 import { SiGithub } from "react-icons/si";
 import Profile from "../assets/ProfilePic.png";
-import IconsList from "../helpers/IconsList";
 import "../styles/Home.css";
 
 
@@ -33,12 +32,10 @@ function Home() {
           </li>
           <li className="item">
             <h2>Back-End</h2>
-            {/* <span>
-              <img alt="html" src="./"/>
+            <span>
               NodeJS, ExpressJS, GraphQL, ApolloServer,
               MySQL, MongoDB, DynamoDB, DigitalOcean, AWS S3, MS SQL
-            </span> */}
-            <IconsList/>
+            </span>
           </li>
           <li className="item">
             <h2>Languages</h2>
